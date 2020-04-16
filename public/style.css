@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+
+section {
+    margin: 0 15% 0 15%;
+    font-family: 'Lora', serif;
+    text-align: justify;
+}
+
+.summary {
+    margin: 0 25% 0 25%;
+    font-family: 'Lora', serif;
+    text-align: justify;
+}
+
+.summary-h1 {
+    font-family: 'Handlee', cursive;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+}
+
+.hover-bg-yellow:hover {
+    background-color: yellow;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.uline {
+    text-decoration: underline;
+}
+
+.uline:hover {
+    text-decoration: none;
+}
+
+.profile-img {
+    vertical-align: middle;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-img:hover {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+hr.style {
+    overflow: visible;
+    /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr.style:before {
+    /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.a-none {
+    text-decoration: none;
+    color: #000000;
+}
+
+.a-none:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.project-card:hover {
+    border: groove grey;
+
+}
+
+.text-grey {
+    color: grey;
+    font-weight: bolder;
+}
+
+.dark-mode,
+.dark-mode * {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6 !important;
+}
